@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="72f8802e-8329-4e35-a43d-231d82e5e1ff" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -35,7 +38,7 @@
       <recent name="E:\GitHub\Python Practice\Python-Practice\Done" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Predict Reading TIme">
+  <component name="RunManager" selected="Python.Lab">
     <configuration name="Lab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,10 +146,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Predict Reading TIme" />
-        <item itemvalue="Python.Time-Based Background Changer ver.3" />
-        <item itemvalue="Python.Time-Based Background Changer ver.2" />
         <item itemvalue="Python.Lab" />
+        <item itemvalue="Python.Time-Based Background Changer ver.3" />
+        <item itemvalue="Python.Predict Reading TIme" />
+        <item itemvalue="Python.Time-Based Background Changer ver.2" />
       </list>
     </recent_temporary>
   </component>
@@ -160,16 +163,5 @@
       <updated>1609410212730</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lab.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
