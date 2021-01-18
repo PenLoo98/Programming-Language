@@ -1,29 +1,20 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QAction, qApp
-from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtCore import QDate, Qt
 
 
 class MyApp(QMainWindow):
 
     def __init__(self):
         super().__init__()
+        self.date = QDate.currentDate()
         self.initUI()
 
     def initUI(self):
-        exitAction = QAction(QIcon('C:\\Users\\sohnc\\Desktop\\exit.png'), 'Exit', self)
-        exitAction.setShortcut('Ctrl+Q')
-        exitAction.setStatusTip('Exit application')
-        exitAction.triggered.connect(qApp.quit)
+        self.statusBar().showMessage(self.date.toString(Qt.DefaultLocaleLongDate))
 
-        self.statusBar()
-
-        menubar = self.menuBar()
-        menubar.setNativeMenuBar(False)
-        filemenu = menubar.addMenu('&File')
-        filemenu.addAction(exitAction)
-
-        self.setWindowTitle('Menubar')
-        self.setGeometry(300, 300, 300, 300)
+        self.setWindowTitle('Date')
+        self.setGeometry(300, 300, 400, 200)
         self.show()
 
 
