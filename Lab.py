@@ -1,19 +1,25 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow
-from PyQt5.QtCore import QDate, Qt
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton
 
 
-class MyApp(QMainWindow):
+class MyApp(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.date = QDate.currentDate()
         self.initUI()
 
     def initUI(self):
-        self.statusBar().showMessage(self.date.toString(Qt.DefaultLocaleLongDate))
+        label1 = QLabel('Label1', self)
+        label1.move(20, 20)
+        label2 = QLabel('Label2', self)
+        label2.move(20, 60)
 
-        self.setWindowTitle('Date')
+        btn1 = QPushButton('Button1', self)
+        btn1.move(80, 13)
+        btn2 = QPushButton('Button2', self)
+        btn2.move(80, 53)
+
+        self.setWindowTitle('Absolute Positioning')
         self.setGeometry(300, 300, 400, 200)
         self.show()
 
