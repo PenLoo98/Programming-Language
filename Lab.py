@@ -1,5 +1,6 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton
+from PyQt5.QtWidgets import QApplication, QWidget, QCheckBox
+from PyQt5.QtCore import Qt
 
 
 class MyApp(QWidget):
@@ -9,19 +10,20 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        label1 = QLabel('Label1', self)
-        label1.move(20, 20)
-        label2 = QLabel('Label2', self)
-        label2.move(20, 60)
+        cb = QCheckBox('Show title', self)
+        cb.move(20, 20)
+        cb.toggle()
+        cb.stateChanged.connect(self.changeTitle)
 
-        btn1 = QPushButton('Button1', self)
-        btn1.move(80, 13)
-        btn2 = QPushButton('Button2', self)
-        btn2.move(80, 53)
-
-        self.setWindowTitle('Absolute Positioning')
-        self.setGeometry(300, 300, 400, 200)
+        self.setWindowTitle('QCheckBox')
+        self.setGeometry(300, 300, 300, 200)
         self.show()
+
+    def changeTitle(self, state):
+        if state == Qt.Checked:
+            self.setWindowTitle('QCheckBox')
+        else:
+            self.setWindowTitle(' ')
 
 
 if __name__ == '__main__':
