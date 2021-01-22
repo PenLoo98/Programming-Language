@@ -1,6 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QCheckBox
-from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QSpinBox, QVBoxLayout
 
 
 class MyApp(QWidget):
@@ -10,20 +9,30 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        cb = QCheckBox('Show title', self)
-        cb.move(20, 20)
-        cb.toggle()
-        cb.stateChanged.connect(self.changeTitle)
+        self.lbl1 = QLabel('QSpinBox')
+        self.spinbox = QSpinBox()
+        self.spinbox.setMinimum(-10)
+        self.spinbox.setMaximum(30)
+        # self.spinbox.setRange(-10, 30)
+        self.spinbox.setSingleStep(2)
+        self.lbl2 = QLabel('0')
 
-        self.setWindowTitle('QCheckBox')
+        self.spinbox.valueChanged.connect(self.value_changed)
+
+        vbox = QVBoxLayout()
+        vbox.addWidget(self.lbl1)
+        vbox.addWidget(self.spinbox)
+        vbox.addWidget(self.lbl2)
+        vbox.addStretch()
+
+        self.setLayout(vbox)
+
+        self.setWindowTitle('QSpinBox')
         self.setGeometry(300, 300, 300, 200)
         self.show()
 
-    def changeTitle(self, state):
-        if state == Qt.Checked:
-            self.setWindowTitle('QCheckBox')
-        else:
-            self.setWindowTitle(' ')
+    def value_changed(self):
+        self.lbl2.setText(str(self.spinbox.value()))
 
 
 if __name__ == '__main__':
