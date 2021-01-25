@@ -1,5 +1,6 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QSpinBox, QVBoxLayout
+from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout
+, QPushButton, QSizePolicy, QLabel, QFontDialog)
 
 
 class MyApp(QWidget):
@@ -9,30 +10,29 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.lbl1 = QLabel('QSpinBox')
-        self.spinbox = QSpinBox()
-        self.spinbox.setMinimum(-10)
-        self.spinbox.setMaximum(30)
-        # self.spinbox.setRange(-10, 30)
-        self.spinbox.setSingleStep(2)
-        self.lbl2 = QLabel('0')
-
-        self.spinbox.valueChanged.connect(self.value_changed)
+        btn = QPushButton('Dialog', self)
+        btn.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
+        btn.move(20, 20)
+        btn.clicked.connect(self.showDialog)
 
         vbox = QVBoxLayout()
-        vbox.addWidget(self.lbl1)
-        vbox.addWidget(self.spinbox)
-        vbox.addWidget(self.lbl2)
-        vbox.addStretch()
+        vbox.addWidget(btn)
 
+        self.lbl = QLabel('The quick brown fox jumps over the lazy dog', self)
+        self.lbl.move(130, 20)
+
+        vbox.addWidget(self.lbl)
         self.setLayout(vbox)
 
-        self.setWindowTitle('QSpinBox')
-        self.setGeometry(300, 300, 300, 200)
+        self.setWindowTitle('Font Dialog')
+        self.setGeometry(300, 300, 250, 180)
         self.show()
 
-    def value_changed(self):
-        self.lbl2.setText(str(self.spinbox.value()))
+    def showDialog(self):
+        font, ok = QFontDialog.getFont()
+
+        if ok:
+           self.lbl.setFont(font)
 
 
 if __name__ == '__main__':
