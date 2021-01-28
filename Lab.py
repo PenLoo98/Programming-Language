@@ -1,5 +1,6 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QMessageBox
+from PyQt5.QtWidgets import (QApplication, QWidget
+, QLCDNumber, QDial, QPushButton, QVBoxLayout, QHBoxLayout)
 
 
 class MyApp(QWidget):
@@ -9,21 +10,37 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('QMessageBox')
-        self.setGeometry(300, 300, 300, 200)
+        lcd = QLCDNumber(self)
+        dial = QDial(self)
+        btn1 = QPushButton('Big', self)
+        btn2 = QPushButton('Small', self)
+
+        hbox = QHBoxLayout()
+        hbox.addWidget(btn1)
+        hbox.addWidget(btn2)
+
+        vbox = QVBoxLayout()
+        vbox.addWidget(lcd)
+        vbox.addWidget(dial)
+        vbox.addLayout(hbox)
+        self.setLayout(vbox)
+
+        dial.valueChanged.connect(lcd.display)
+        btn1.clicked.connect(self.resizeBig)
+        btn2.clicked.connect(self.resizeSmall)
+
+        self.setWindowTitle('Signal and Slot')
+        self.setGeometry(200, 200, 200, 250)
         self.show()
 
-    def closeEvent(self, event):
-        reply = QMessageBox.question(self, 'Message', 'Are you sure to quit?',
-                                    QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+    def resizeBig(self):
+        self.resize(400, 500)
 
-        if reply == QMessageBox.Yes:
-            event.accept()
-        else:
-            event.ignore()
+    def resizeSmall(self):
+        self.resize(200, 250)
 
 
 if __name__ == '__main__':
-   app = QApplication(sys.argv)
-   ex = MyApp()
-   sys.exit(app.exec_())
+    app = QApplication(sys.argv)
+    ex = MyApp()
+    sys.exit(app.exec_())
