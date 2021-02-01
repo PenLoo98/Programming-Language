@@ -61,8 +61,9 @@ class MyApp(QWidget):
         self.lbl4.adjustSize()
 
     def SelectWallpaper(self):
-        fileName = QFileDialog.getOpenFileName(self, self.tr("Open Data files"), "./", self.tr("Images (*.png *.jpg *.jpeg);; All Files(*.*)"))
-        self.lbl5.setText(fileName)
+        # fileName = QFileDialog.getOpenFileName(self, self.tr("Open Data files"), "./", self.tr("Images (*.png *.jpg *.jpeg);; All Files(*.*)"))
+        filename = QFileDialog.directory()
+        self.lbl5.setText(filename)
         self.lbl5.adjustSize()
 
     # def PreView(self):
