@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72f8802e-8329-4e35-a43d-231d82e5e1ff" name="Default Changelist" comment="" />
+    <list default="true" id="72f8802e-8329-4e35-a43d-231d82e5e1ff" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/DeepLearningProgramming/2nd Week/find_same_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/DashInsert function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/Fibonacci sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/Morse Interpreter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/Phone number encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/Predict Reading TIme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/String Compression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/just do it.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/memo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/sub_dir_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c_practices/tab to 4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/Calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/DashInsert function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/Fibonacci sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/Morse Interpreter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/Phone number encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/Predict Reading TIme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/String Compression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/just do it.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/memo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/sub_dir_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Done/tab to 4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI Desktop Changer.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_practices/GUI Desktop Changer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_practices/Lab.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,74 +49,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1mPzrRWg7MdY02nfN0fVU7R0yJH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/penloo/Documents/GitHub/Python-Practice",
+    "settings.editor.selected.configurable": "configurable.group.editor"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHub\Python Practice\Python-Practice" />
       <recent name="E:\GitHub\Python Practice\Python-Practice\Done" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DeepLearningProgramming/2nd Week" />
+      <recent name="$PROJECT_DIR$/Done" />
       <recent name="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\have solved\Lv1" />
       <recent name="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\have solved" />
       <recent name="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\solve later" />
-      <recent name="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\solving" />
-      <recent name="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\solved" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lab">
-    <configuration name="10~1000까지 각 숫자 분해하여 곱하기의 전체 합 구하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-Practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\sohnc\AppData\Local\Programs\Python\Python38\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\have solved\Lv1\10~1000까지 각 숫자 분해하여 곱하기의 전체 합 구하기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1~1000에서 각 숫자의 개수 구하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-Practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\sohnc\AppData\Local\Programs\Python\Python38\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\have solved\Lv1\1~1000에서 각 숫자의 개수 구하기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.find_same_name">
     <configuration name="버전비교" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +92,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\have solved\Lv1\버전비교.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10~1000까지 각 숫자 분해하여 곱하기의 전체 합 구하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\sohnc\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\GitHub\Python Practice\Python-Practice\codingdojang.com\have solved\Lv1\10~1000까지 각 숫자 분해하여 곱하기의 전체 합 구하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,6 +163,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="find_same_name" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\sohnc\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearningProgramming/2nd Week/find_same_name.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +207,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lab" />
-        <item itemvalue="Python.10~1000까지 각 숫자 분해하여 곱하기의 전체 합 구하기" />
-        <item itemvalue="Python.1~1000에서 각 숫자의 개수 구하기" />
-        <item itemvalue="Python.버전비교" />
-        <item itemvalue="Python.Printing OXs" />
+        <item itemvalue="Python.find_same_name" />
       </list>
     </recent_temporary>
   </component>
@@ -193,62 +222,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/탭을 공백 문자로 바꾸기.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/탭을 공백 문자로 바꾸기.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/탭을 공백 문자로 바꾸기.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/사이냅소프트 면접문제.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/사이냅소프트 면접문제.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/사이냅소프트 면접문제.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/Duplicate Numbers.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/Duplicate Numbers.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/codingdojang.com/have solved/Lv1/Duplicate Numbers.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
