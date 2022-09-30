@@ -5,34 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72f8802e-8329-4e35-a43d-231d82e5e1ff" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/DeepLearningProgramming/2nd Week/find_same_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/Calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/DashInsert function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/Fibonacci sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/Morse Interpreter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/Phone number encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/Predict Reading TIme.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/String Compression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/just do it.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/memo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/sub_dir_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c_practices/tab to 4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/Calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/DashInsert function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/Fibonacci sequence.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/Morse Interpreter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/Phone number encoder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/Predict Reading TIme.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/String Compression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/just do it.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/memo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/sub_dir_search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Done/tab to 4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI Desktop Changer.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_practices/GUI Desktop Changer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_practices/Lab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20220927_ML_MNIST.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/Tree-02.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/hello.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/warn-hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/xref-hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/Calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/DashInsert function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/Fibonacci sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/GUI Desktop Changer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/Lab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/Morse Interpreter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/Phone number encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/Predict Reading TIme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/String Compression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/just do it.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/memo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/sub_dir_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c_practices/tab to 4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/Dash Insert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/10~1000까지 각 숫자 분해하여 곱하기의 전체 합 구하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/1~1000에서 각 숫자의 개수 구하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/3이 나타나는 시간을 전부 합하면.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/Duplicate Numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/Multiples of 3 and 5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/Printing OXs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/Special Sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/The Knights Of The Round Table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/가성비 최대화.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/게시판 페이징.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/메모리공간을 동적으로 사용하여 데이터 관리하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/버전비교.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/사이냅소프트 면접문제.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/탭을 공백 문자로 바꾸기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/have solved/Lv1/피보나치 수열 구하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingdojang.com/lab.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +75,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/penloo/Documents/GitHub/Python-Practice",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/penloo/Documents/GitHub/Python-Practice&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHub\Python Practice\Python-Practice" />
