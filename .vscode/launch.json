@@ -10,7 +10,8 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
+            // "MIMode": "lldb",
+            "miDebuggerPath": "/usr/local/opt/llvm/bin/lldb"
             "preLaunchTask": "C/C++: clang build active file"
         }
     ],

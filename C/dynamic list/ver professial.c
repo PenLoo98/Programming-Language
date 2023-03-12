@@ -16,8 +16,8 @@ int isFull() {
 	else return 0;
 }
 
-// 스택의 top에 원소를 삽입하는 연산
-void push(int item) {
+// 스택의 top에 원소를 삽입하는 연산 == append()
+void append(int item) {
 	int *temp;
 
 	if (isFull()) {
@@ -50,7 +50,7 @@ void printStack() {
 void main(void) {
 	int i;
 	stack = (int*)malloc(STACK_SIZE * sizeof(int));
-	for (i = 0; i < 44; i++) push(i + 1);
+	for (i = 0; i < 44; i++) append(i + 1);
 	printStack();	
 	for (i = 0; i < 7; i++) printf(" POP Data [%d]\n", pop());
 	printStack();
